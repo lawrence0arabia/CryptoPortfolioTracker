@@ -36,7 +36,7 @@ Not a problem! The script will automatically format each portfolio with colours 
 
 🟢 The latest API call returned bigger numbers than the previous API call. You're in the money 🤑 At least for now 🤡
 
-🟡 The latest API call returned the same numbers. Darn it 😠 If you want this to happen less often you could try raising the `TIME_SLEEP` constant.
+🟡 The latest API call returned the same numbers. Darn 😠 If you want this to happen less often you could try raising the `TIME_SLEEP` constant.
 
 🔴 Aw, shucks! You're bleeding money 😞 You should've just put your money under your bed like your grandma told you 👵
 
