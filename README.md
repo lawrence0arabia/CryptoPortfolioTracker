@@ -1,4 +1,4 @@
-# crypto_portfolio_tracker
+# CryptoPortfolioTracker
 
 
 ### Track multiple cryptocurrency portfolios in real time.
