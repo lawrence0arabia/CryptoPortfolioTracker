@@ -21,7 +21,7 @@ Some example portfolios are already present in the code:
 
 <img width="550" alt="portfolio_examples" src="https://user-images.githubusercontent.com/67545734/120466153-1490ef00-c3e2-11eb-9688-e6d8b3fccdca.png">
 
-The script will aggregate unique cryptocurrency tags to generate params for the api call so the api will only need to be called once for every portfolio 😎
+The script will aggregate unique cryptocurrency tags to generate params for the api call so the api will only need to be called once for every loop 😎
 
 ## 🟢 Green For Gains, 🔴 Red For Rethink Your Financial Decisions!
 
