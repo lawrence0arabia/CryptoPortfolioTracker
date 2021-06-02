@@ -9,7 +9,7 @@ Utilising the 🟪[Nomics API](https://nomics.com/docs/#tag/Currencies) to get c
 
 ## 😎 Smooth Value Updates
 
-Queues 1 crypto price at a time and gradually increments every 0.1 seconds to "smoothly" update portfolio values, since nomics apihas 1 second rate limit, and the actual data their api returns is only updated every ~7 seconds. Because of this, the `SLEEP_TIME` constant interval is set to 7, but you can decrease that if you would like more up-to-date valuation, or increase it to reduce the likelihood of the nomics api returning the same values (which causes the "smooth" updating to pause until nomics returns new data).
+Queues 1 crypto price at a time and gradually increments every 0.1 seconds to "smoothly" update portfolio values, since nomics api has 1 second rate limit, and the actual data their api returns is only updated every ~7 seconds. Because of this, the `SLEEP_TIME` constant interval is set to 7, but you can decrease that if you would like more up-to-date valuation, or increase it to reduce the likelihood of the nomics api returning the same values (which causes the "smooth" updating to pause until nomics returns new data).
 
 ## 🧑‍🤝‍🧑🧑‍🤝‍🧑 Multiple Portfolio Support
 
