@@ -7,11 +7,11 @@ Utilising the 🟪[Nomics API](https://nomics.com/docs/#tag/Currencies) to get c
 
 # FEATURES
 
-## "Smooth" Value Updates
+## 😎 Smooth Value Updates
 
 Queues 1 crypto price at a time and gradually increments every 0.1 seconds to "smoothly" update portfolio values, since nomics apihas 1 second rate limit, and the actual data their api returns is only updated every ~7 seconds. Because of this, the `SLEEP_TIME` constant interval is set to 7, but you can decrease that if you would like more up-to-date valuation, or increase it to reduce the likelihood of the nomics api returning the same values (which causes the "smooth" updating to pause until nomics returns new data).
 
-## Multiple Portfolio Support
+## 🧑‍🤝‍🧑🧑‍🤝‍🧑 Multiple Portfolio Support
 
 Add as many portfolios as you want 🤙
 
@@ -30,16 +30,16 @@ Not a problem! The script will automatically format each portfolio with colours 
 
 🟢 The latest API call returned bigger numbers than the previous API call. You're in the money 🤑 At least for now 🤡
 
-🟡 The latest API call returned the same numbers. Darn it. If you want this to happen less often you could try raising the `TIME_SLEEP` constant.
+🟡 The latest API call returned the same numbers. Darn it 😠 If you want this to happen less often you could try raising the `TIME_SLEEP` constant.
 
 🔴 Aw, shucks! You're bleeding money 😞 You should've just put your money under your bed like your grandma told you 👵
 
 # Running Locally
 
-- This script was built with `Python3.9` but I'm pretty sure it'd still run if you have any version of Python3.
+- This script was built with `Python3.9` but I'm pretty sure it'd still run if you have any version of Python3. No promises though.
 
-- You'll have to replace the `KEY` constant with your own key, which you can get from [Nomics](https://p.nomics.com/cryptocurrency-bitcoin-api)
+- You'll have to replace the `KEY` constant with your own key, which you can get from [Nomics](https://p.nomics.com/cryptocurrency-bitcoin-api).
 
-- You should also probably replace the example portfolios, unless you want to imagine how much crypto Keanu Reeves has, or track the exact value of the 🐶 SHIB Vitalik cast into a volcano (4,635,734,563.52 dollarydoos 💵🦘 at the time of the screenshot above taken on June 1st)
+- You should also probably replace the example portfolios, unless you want to imagine how much crypto Keanu Reeves has, or track the exact value of the 🐶 SHIB Vitalik cast into a volcano (4,635,734,563.52 dollarydoos 💵🦘 at the time of the screenshot above taken on June 1st).
 
 - Oh yeah, and you should probably change the `"AUD"` to `"USD"` or something if you're not from Australia 🇦🇺, but I'm kinda assuming anyone reading this is from here since I'm not applying for jobs anywhere else 🤷‍♀️
