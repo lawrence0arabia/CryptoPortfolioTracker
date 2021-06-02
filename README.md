@@ -38,8 +38,8 @@ Not a problem! The script will automatically format each portfolio with colours 
 
 - This script was built with `Python3.9` but I'm pretty sure it'd still run if you have any version of Python3. No promises though.
 
-- You'll have to replace the `KEY` constant with your own key, which you can get from [Nomics](https://p.nomics.com/cryptocurrency-bitcoin-api).
+- You'll have to replace the `KEY` constant with your own key, which you can get from 🟪[Nomics](https://p.nomics.com/cryptocurrency-bitcoin-api).
 
 - You should also probably replace the example portfolios, unless you want to imagine how much crypto Keanu Reeves has, or track the exact value of the 🐶 SHIB Vitalik cast into a volcano (4,635,734,563.52 dollarydoos 💵🦘 at the time of the screenshot above taken on June 1st).
 
-- Oh yeah, and you should probably change the `"AUD"` to `"USD"` or something if you're not from Australia 🇦🇺, but I'm kinda assuming anyone reading this is from here since I'm not applying for jobs anywhere else 🤷‍♀️
+- Oh yeah, and you should probably change the CURRENCY constant from `"AUD"` to `"USD"` or something if you're not from Australia 🇦🇺, but I'm kinda assuming anyone reading this is from here since I'm not applying for jobs anywhere else 🤷‍♀️
