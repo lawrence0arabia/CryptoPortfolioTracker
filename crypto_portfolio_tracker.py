@@ -26,10 +26,13 @@ people = [keanu, obama, elon, satoshi, vitalik]
 # CONSTANTS
 
 KEY = "REPLACE_WITH_YOUR_KEY" # Get your own nomics API key at https://p.nomics.com/cryptocurrency-bitcoin-api
+
 URL = "https://api.nomics.com/v1/currencies/ticker?key=" + KEY
-SLEEP_TIME = 7                  # Higher SLEEP_TIME means less likelihood of a call repeating previous
-                                # call results, which means values are static less often, but means
-                                # actual accuracy is lower as values get more disconnected from current
+
+CURRENCY = "AUD"
+				# Higher SLEEP_TIME means less likelihood of a call repeating previous
+SLEEP_TIME = 7 			# call results, which means values are static less often, but means
+               			# actual accuracy is lower as values get more disconnected from current
 CRED    = '\033[91m'
 CGREEN  = '\33[32m'
 CYELLOW = '\033[93m'                                                        # Colour codes, constants 
@@ -45,7 +48,7 @@ def build_params_from_all_portfolios(list_of_portfolio_dicts):
             if crypto not in cryptos:                                       # IDs to add to params for
                 cryptos.append(crypto)                                      # API call
     ids = ','.join(cryptos)
-    params = {"ids":ids,"convert":"AUD", "exchange":"coinbase"}
+    params = {"ids": ids,"convert": CURRENCY, "exchange": "coinbase"}
     return params
 
 
