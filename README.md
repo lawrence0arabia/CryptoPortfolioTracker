@@ -23,7 +23,7 @@ Some example portfolios are already present in the code:
 
 The script will aggregate unique cryptocurrency tags to generate params for the api call so the api will only need to be called once for every loop 😎
 
-## 🟢 Green For Gains, 🔴 Red For Rethink Your Financial Decisions!
+## 🟢 Green For Gains, 🔴 Red For Rethink Your Financial Decisions
 
 Crypto going up but you never learnt how to count? 
 Not a problem! The script will automatically format each portfolio with colours depending on their current performance.
