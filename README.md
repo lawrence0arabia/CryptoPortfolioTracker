@@ -14,8 +14,11 @@ Queues 1 crypto price at a time and gradually increments every 0.1 seconds to "s
 ## Multiple Portfolio Support
 
 Add as many portfolios as you want 🤙
+
 <img width="1004" alt="multiple" src="https://user-images.githubusercontent.com/67545734/120465594-7d2b9c00-c3e1-11eb-96f9-4fbab2bd30db.png">
+
 Some example portfolios are already present in the code: 
+
 <img width="550" alt="portfolio_examples" src="https://user-images.githubusercontent.com/67545734/120466153-1490ef00-c3e2-11eb-9688-e6d8b3fccdca.png">
 
 The script will aggregate unique cryptocurrency tags to generate params for the api call so the api will only need to be called once for every portfolio 😎
