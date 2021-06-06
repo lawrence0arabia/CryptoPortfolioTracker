@@ -5,6 +5,8 @@
 
 Utilising the 🟪[Nomics API](https://nomics.com/docs/#tag/Currencies) to get crypto prices.
 
+https://user-images.githubusercontent.com/67545734/120918782-81193000-c6f9-11eb-922f-c4b0af41ed82.mov
+
 # FEATURES
 
 ## 😎 Smooth Value Updates
